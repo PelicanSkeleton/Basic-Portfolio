@@ -1,0 +1,28 @@
+body {
+    background-image: url(../images/prism.png);
+    background-repeat: repeat; 
+}
+
+header {
+    box-sizing: border-box;
+    width: 960px;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    float: left;
+}
+
+nav {
+    width: 960px;
+    float: right;
+}
+
+img {
+    float: left;
+}
+
+.center-content {
+    width: 960px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    float: left;
+}
