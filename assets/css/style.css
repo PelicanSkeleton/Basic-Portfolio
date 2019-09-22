@@ -1,28 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(../images/prism.png);
-    background-repeat: repeat; 
+    background-repeat: repeat;
+    margin: 0;
+    font-size: 18px;
+    line-height: 150%;
 }
 
 header {
-    box-sizing: border-box;
-    width: 960px;
-    background-color: #ffffff;
-    border-color: #cccccc;
-    float: left;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    border-color: 1px solid #cccccc;
+    width: 200px;
+    margin: 0 auto 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: #4aaaa5;
 }
 
 nav {
-    width: 960px;
     float: right;
 }
 
-img {
-    float: left;
+a {
+    color: #777777;
 }
 
 .center-content {
     width: 960px;
+    margin: 0 auto 0 auto;
+    padding: 20px;
     background-color: #ffffff;
-    border-color: #dddddd;
+}
+
+.profilepic {
     float: left;
+    padding: 0 20px 20px 0;
 }
