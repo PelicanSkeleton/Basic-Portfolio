@@ -18,7 +18,7 @@ header {
     text-align: center;
     border-color: 1px solid #cccccc;
     width: 200px;
-    margin: 0 auto 0 auto;
+    margin: 0 0 0 288px ;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -28,7 +28,18 @@ h1 {
 }
 
 nav {
-    float: right;
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    margin-bottom: 20px;
+    /* margin: 20px 0;
+    float: right; */
+}
+
+.nav-links {
+    position: absolute;
+    right: 300px;
+    top: 20px;
 }
 
 a {
@@ -46,3 +57,4 @@ a {
     float: left;
     padding: 0 20px 20px 0;
 }
+
