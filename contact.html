@@ -3,39 +3,54 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact | Scott Phillips</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Contact</title>
 </head>
 
 <body>
-        <nav>
-                <header>Scott Phillips</header>
-                <div class="nav-links">
-    
+
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Scott Phillips</a>
+            <nav>
                 <a href="index.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="contact.html">Contact</a>
-            </div>
             </nav>
-    <div class="center-content">
-        <h1>Contact</h1>
+        </div>
+    </header>
 
-        <ul>
-            <form>Name:</form>
-            <input>
-            <form>Email:</form>
-            <input>
-            <form>Message:</form>
-            <textarea></textarea>
-            <button>Send</button>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
 
-        </ul>
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit">
+            </form>
 
+        </section>
 
     </div>
-    <footer></footer>
+
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
 </body>
 
 </html>
